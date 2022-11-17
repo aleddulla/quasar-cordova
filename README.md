@@ -63,9 +63,7 @@ quasar mode add cordova
 cordova build android --release -- --packageType=apk
 ```
 ### Publishing to Store:
-```bash
 (https://quasar.dev/quasar-cli-webpack/developing-cordova-apps/publishing-to-store#Introduction)
-```
 
 ### DEMO:
 
