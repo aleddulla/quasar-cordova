@@ -67,3 +67,6 @@ cordova build android --release -- --packageType=apk
 https://quasar.dev/quasar-cli-webpack/developing-cordova-apps/publishing-to-store#Introduction
 ```
 
+### DEMO:
+
+
