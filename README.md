@@ -37,5 +37,25 @@ npm run format
 quasar build
 ```
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
+### Install Cordova CLI
+npm install -g cordova
+
+Note that when it asks for "Cordova app id" this is usually a reverse domain name of your company which is used to uniquely identify your app.
+cd src-cordova
+
+### Add android platform
+cordova platform add android
+cordova requirements - check that everything is fine or not.
+
+### Generate Cordova Project
+Now build android for development
+quasar dev -m cordova -T android
+quasar mode add cordova
+
+### Generate aap or apk bundle
+cordova build android --release -- --packageType=apk
+
+### Publishing to Store:
+https://quasar.dev/quasar-cli-webpack/developing-cordova-apps/publishing-to-store#Introduction
+
+
